@@ -1,0 +1,165 @@
+.otp_header {
+  padding: 0px 50px;
+}
+
+.input_otp_header {
+  width: 100%;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 30px 0;
+}
+
+.input_otp_header div {
+  width: 100%;
+  justify-content: space-around;
+}
+
+.otp_input input {
+  width: 55px !important;
+  height: 45px;
+  border-radius: 10px;
+  /* margin: 0 20px 0 0; */
+  border: 1px solid #cf6c36;
+}
+
+.text_otp_send_mobile {
+  font-weight: 600;
+  margin: 0 0 30px 0;
+}
+
+.otp_counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 30px 0;
+}
+
+.otp_counter .ant-statistic-title {
+  color: black;
+  font-size: 12px;
+  font-weight: 600;
+
+  margin: 0 10px 0 0;
+}
+
+.otp_counter span {
+  background: green;
+  width: 22px;
+  height: 23px;
+  border-radius: 50%;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: 500;
+}
+
+/*Prefer_language_header ------------ */
+.Prefer_language_header {
+  border: 2px solid #ffdda5;
+  background-color: #fff;
+  height: 420px;
+}
+
+.prefer_header_text {
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 40px 0px;
+}
+
+.switch_header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.switch_header p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.horizontal_language {
+  margin: 0 0 20px 0;
+  color: #0000002e;
+}
+
+.language_btn {
+  background: none !important;
+  color: #0c9444 !important;
+  border: 1px solid #0c9444 !important;
+}
+
+.ant-switch-checked {
+  background-color: #0c9444 !important;
+}
+
+.switch_header .ant-switch-checked .ant-switch-handle {
+  left: calc(100% - 12px - 2px) !important;
+}
+
+.lanswitch {
+  min-width: 36px !important;
+  height: 18px !important;
+}
+
+.lanswitch .ant-switch-handle {
+  top: 4px;
+  width: 10px;
+  height: 10px;
+}
+
+/* ----tandC_header------- */
+.tandC_header {
+  width: 70%;
+}
+
+.TAndc_text {
+  height: 150px;
+  font-size: 16px;
+  font-weight: 500;
+  justify-content: center;
+  overflow-y: scroll;
+  text-align: justify;
+}
+
+.tandc_btn {
+  width: 35%;
+  border: 2px solid #b17742 !important;
+  color: #b17742 !important;
+}
+
+.gold_btn {
+  width: 35%;
+  border: 2px solid #BFA574 !important;
+  color: #BFA574 !important;
+}
+
+.agree_checkbox .ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #0c9444;
+  border-color: #0c9444;
+}
+
+.agree_checkbox span {
+  font-weight: 600;
+}
+
+.tandc_btn_con {
+  width: 35%;
+  margin: 0;
+}
+
+.otp_expired_msg {
+  text-align: center;
+  display: block;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.otp_btn {
+  background-color: #ffdda5 !important;
+  color: #b7d0c1 !important;
+}
